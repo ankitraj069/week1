@@ -1,0 +1,87 @@
+Question_1: Currency
+In Indian Currency notes and coins are available from Rs. 1, Rs. 2, Rs. 5, Rs. 10, Rs. 20, Rs. 50, Rs. 100, Rs. 200, Rs. 500, and Rs. 2000. A person saves a valid amount not exceeding a sum of Rs. 25000 with least number of notes or coins. Write a program to determine the number of notes or coins when the total saving amount is given. IT will display “Error” for any invalid cause of the program.
+
+Input Format
+An Integer representing the valid amount.
+
+Output Format
+10 space separated integers representing the frequency of the denomination respectively for Rs. 2000, Rs. 500, Rs. 200, Rs. 100, Rs. 50, Rs. 20, Rs. 10, Rs. 5, Rs. 2, Rs. 1.
+
+Constraints
+A valid amount is always greater than zero. 
+Time Limit2s.Each test case should pass in 2s.Sample Input1788Sample Output0 3 1 0 1 1 1 1 1 1
+
+Real Test Data
+No.	Input	Output
+		
+1	13	0 0 0 0 0 0 1 0 1 1
+2	-9	Error
+3	27588	Error
+4	2888	1 1 1 1 1 1 1 1 1 1
+
+Problem Statement: Daily Market
+Ram babu has five family members including parents, wife and only child. He spends Rs.X, Rs.Y, Rs.Z, Rs. T and Rs. W for Milk, non-veg, fruits, grocery and Vegetables each day respectively where Y is the maximum among all and every item must have some nonzero cost. If all X, Y, Z, T, W, and the current month and year is given, write a program to estimate the daily and monthly expanses for Ram babu for that month. If the input condition does not satisfy, it will display "Error" as output.
+Input Format
+The cost of the five items and the integer index of the month and the year. All are space separated.
+Output Format
+Space separated daily and monthly expanses.
+Constraints
+The cost of the five items would be a valid one. Month would be given as the corresponding integer ranging 1-12. A year would be valid integer. 
+
+
+
+
+
+
+Time Limit2s.Each test case should pass in 2s.Sample Input100 200 150 175 70 8 2020Sample Output695.000000 21545.000000
+Real Test Data
+No.	Input	Output
+		
+1	100 200 300 500 20 3 2020	Error
+2	100 200 150 175 70 18 2020	Error
+3	100 200 150 175 70 18 -20	Error
+4	120 310 300 200 100 2 2020	1030.000000 29870.000000
+5	75.5 300 200 250.5 125 10 2021	951.000000 29481.000000
+6	125.5 335.5 255 300.5 100.5 2 2016	1117.000000 32393.000000
+
+Problem Statement: Swan & Eggs
+A farmer has N number of swans of different ages. A swan can give approximately four eggs in a week when it will be 13 months of age. The farmer usually exports eggs monthly. If the valid ages of the swans are given in weeks at the beginning of a month, then write a program to compute the total number of eggs in the end of the month. A month is considered as 4 weeks.
+Input Format
+The number of swan and their weights in integer and separated by space.
+ 
+Output Format
+The total number of eggs at the end of the month.
+Constraints
+The age of any swan must be valid one. 
+Time Limit2s.Each test case should pass in 2s.Sample Input4 51 52 53 54 Sample Output60
+Real Test Data
+No.	Input	Output
+		
+1	0	0
+2	5 49 50 51 52 53	56
+3	-3	Error
+4	4 45 60 0 123	Error
+5	5 12 25 30 42 10	0
+6	6 51 50 48 49 52 50	48
+7	3 72 56 84	48
+
+Problem Statement: Magical Number
+Let a N digit number is given, P and Q are two numbers, which hold the multiplication of all even and odd position digits respectively. If P is greater or equal to Q then the number is "Dominant", otherwise "Magical". The digit will not be considered, if it is zero and N must not be grater than ten. Write a program to find Dominant or magical number among K given numbers. For any invalid reason it will display "Error". The negative numbers are invalid.
+Input Format
+Total numbers input and the individual number separated by space.
+Output Format
+Space separated conclusion of each number whether they are "Magical", "Dominant" or "Error". 
+Constraints
+The numbers given never be negative. Zero in the digits never be considered in multiplication
+Time Limit2s.Each test case should pass in 2s.Sample Input4 65 56 0 12345Sample OutputMagical Dominant Error Magical
+
+Real Test Data
+No.	Input	Output
+		
+1	2 123456789012 1254	Error Dominant
+2	6 1 2 3 4 5 6	Magical Magical Magical Magical Magical Magical
+3	1 101010	Magical
+4	3 -121 0 45	Error Error Dominant
+5	-10	Error
+
+5. If the birthday and current date is given for a man...then calculate the total number of days of his life at current point of time. The date of birth and the current date is given. The total weeks of his life will decide whether the wil get Grant or not. If the sum all the prime factors is greater than other he will get it.
